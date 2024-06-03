@@ -1,0 +1,112 @@
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.top-panel {
+	background-color: transparent;
+	padding: 18px;
+	height: 5.5cm;
+}
+
+.top-panel-top {
+	background-color: lightgray;
+	padding: 5px;
+	display: flex;
+	justify-content: space-around;
+	height: 5cm;
+}
+
+.top-pic {
+	background-color: lightgray;
+	display: flex;
+	justify-content: space-around;
+	width: 40%;
+}
+
+.top-title {
+	background-color: lightgray;
+	height: 5cm;
+	width: 40%;
+	text-align: center;
+}
+
+.top-title-text {
+	font-size: 3cm;
+	margin-top: 1cm;
+}
+
+.top-menu {
+	background-color: lightgray;
+	border-top: solid 1px black;
+	padding: 10px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.top-menu-button {
+	background-color: lightgray;
+	border: solid 1px black;
+	font-size: 20px;
+	width: 5cm;
+	text-align: center;
+	padding: 5px;
+}
+
+
+.top-menu-button:hover {
+	background-color: white;
+	margin-top: -5px;
+	margin-bottom: 5px;
+	box-shadow: 0px 5px 5px 2px white;
+	transition: 0.2s;
+}
+
+.active-btn {
+	background-color: white;
+	margin-top: -5px;
+	margin-bottom: 5px;
+	box-shadow: 0px 5px 5px 2px white;
+}
+
+.active-btn:hover {}
+
+.main-content-div {
+	background-color: lightgray;
+	margin-top: 1cm;
+	padding: 10px;
+	font-size: 0.8cm;
+}
+
+.main-content-h1 {
+	margin-top: 0px;
+}
+
+.img-content {
+	height: 50%;
+	width: 50%;
+}
+
+.different-language {
+	color: white;
+	background-color: #101010;
+	border-radius: 6px 6px 0 0;
+	margin-top: 10px;
+}
+
+.different-language-top {
+	color: white;
+	background-color: #303030;
+	border-radius: 6px 6px 0 0;
+	padding: 2px;
+	padding-left: 15px;
+	padding-right: 15px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.different-language-copy-button {
+	background-color: transparent;
+	color: white;
+	cursor: pointer;
+}
